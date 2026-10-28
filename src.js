@@ -475,6 +475,7 @@ async function initializeApp() {
     }
   } catch (error) {
     console.error('Erro ao iniciar a sessão:', error);
+
     authScreen(
       'login',
       'Não foi possível verificar sua sessão. Atualize a página e tente novamente.'
